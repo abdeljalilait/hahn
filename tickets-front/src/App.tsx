@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import {
   Table,
   Button,
@@ -92,6 +92,15 @@ const App: React.FC = () => {
   };
 
   
+  /**
+   * Defines the columns for the ticket table, including rendering custom components for editable fields.
+   * The columns include:
+   * - Ticket Id: Sortable by ticket ID
+   * - Description: Editable via an input field when the ticket is being edited
+   * - Status: Editable via a dropdown when the ticket is being edited
+   * - Date: Formatted date of ticket creation
+   * - Actions: Provides buttons to update or delete the ticket
+   */
   const columns: ColumnType<Ticket>[] = [
     {
       title: "Ticket Id",
