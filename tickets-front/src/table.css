@@ -1,0 +1,90 @@
+th.ant-table-cell {
+  background-color: #06A259 !important;
+  color: white;
+  border-radius: 0px;
+}
+
+th.ant-table-cell {
+  color: white !important;
+  
+  
+}
+th {
+  color: white !important;
+  border-radius: 0px !important;
+}
+
+
+.ant-table-tbody {
+  background-color: #F0F0F0 !important;
+}
+
+.ant-table-tbody.ant-table-row.ant-table-cell {
+  background-color: #F0F0F0 !important;
+}
+
+.ant-table-tbody td.ant-table-cell {
+  font-weight: bold;
+  height: 60px; /* Adjust the height as needed */
+  vertical-align: middle; /* Align text vertically to center */
+}
+
+/* Optional: Set the button alignment if needed */
+.ant-table-tbody td.ant-table-cell button {
+  line-height: normal;
+}
+
+.ant-table-tbody td.ant-table-cell button {
+  color: black;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+.ant-table-tbody td.ant-table-cell {
+  color: black;
+  font-weight: bolder;
+}
+
+.ant-table-tbody td.ant-table-cell {
+  padding: 12px 16px; /* Adjust padding as needed */
+  height: 50px; /* Set desired height */
+  line-height: 1.5; /* Ensure text is aligned vertically */
+  vertical-align: middle; /* Center-align content vertically */
+  padding: 0;
+}
+
+/* Optional: Apply consistent row height */
+.ant-table-tbody tr.ant-table-row {
+  height: 50px; /* Match the height of the td cells */
+}
+
+:where(.css-dev-only-do-not-override-1hpnbz2).ant-table-wrapper .ant-table-cell,
+:where(.css-dev-only-do-not-override-1hpnbz2).ant-table-wrapper .ant-table-thead>tr>th,
+:where(.css-dev-only-do-not-override-1hpnbz2).ant-table-wrapper .ant-table-tbody>tr>th,
+ :where(.css-dev-only-do-not-override-1hpnbz2).ant-table-wrapper .ant-table-tbody>tr>td,
+  :where(.css-dev-only-do-not-override-1hpnbz2).ant-table-wrapper tfoot>tr>th,
+   :where(.css-dev-only-do-not-override-1hpnbz2).ant-table-wrapper tfoot>tr>td {
+  padding: 0;
+  padding-left: 16px;
+  padding-right: 16px;
+  border: 1px solid #C7C7C7;
+}
+
+:where(.css-dev-only-do-not-override-1hpnbz2).ant-table-wrapper .ant-table-thead>tr>th {
+  padding: 16px;
+  border: 1px solid white;
+}
+
+#root {
+  background-color: #C7C7C7;
+  padding: 15px;
+}
+
+.ant-form {
+  background-color: white !important;
+  padding: 0px;
+}
+
+:where(.css-dev-only-do-not-override-1hpnbz2).ant-btn-variant-solid {
+  background-color: #06A259 !important;
+}

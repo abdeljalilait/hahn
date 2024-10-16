@@ -91,7 +91,6 @@ const App: React.FC = () => {
     addTicketMutation.mutate(newTicket);
   };
 
-  
   /**
    * Defines the columns for the ticket table, including rendering custom components for editable fields.
    * The columns include:
@@ -115,6 +114,7 @@ const App: React.FC = () => {
       render: (text: string, record: Ticket) =>
         editingTicket?.id === record.id ? (
           <Input
+            required
             value={editingTicket.description}
             onChange={(e) =>
               setEditingTicket({
